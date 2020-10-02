@@ -71,9 +71,9 @@
 #
 # MONITOR myups@localhost 1 upsmon pass master	(or slave)
 
+# Default user for Synology
 [upsmon]
         password  = upsmonp4ss
         actions = SET
         instcmds = ALL
         upsmon master
-

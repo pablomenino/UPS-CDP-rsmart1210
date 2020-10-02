@@ -13,6 +13,7 @@
 #----------------------------------------------------------------------------------------
 # Install ups-cdp-rsmart1210
 
+# Change URL and Token
 curl -X POST "https://localhost/message?token=XXXXXXX" \
  -F "title=UPS CDP R-Smart 1210 Notify" \
  -F "message=$NOTIFYTYPE" \
